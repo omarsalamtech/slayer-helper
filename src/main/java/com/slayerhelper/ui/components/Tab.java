@@ -31,7 +31,7 @@ public class Tab {
         JLabel typeLabel = new JLabel(type);
         typeLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 15));
         typeLabel.setForeground(Color.ORANGE);
-        typeLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        typeLabel.setHorizontalAlignment(SwingConstants.LEFT);
         typeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         typeLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
         contentPanel.add(typeLabel);
@@ -43,11 +43,11 @@ public class Tab {
                 JLabel label = new JLabel(s);
                 label.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 15));
                 label.setForeground(Color.WHITE);
-                label.setHorizontalAlignment(SwingConstants.CENTER);
-                label.setAlignmentX(Component.CENTER_ALIGNMENT);
+                label.setHorizontalAlignment(SwingConstants.LEFT);
+                label.setAlignmentX(Component.LEFT_ALIGNMENT);
                 
                 JButton wikiButton = WikiUtil.createLinkButton(s, WikiUtil.getWikiUrl(type, s));
-                wikiButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+                wikiButton.setAlignmentX(Component.LEFT_ALIGNMENT);
                 wikiButton.setMaximumSize(new Dimension(Integer.MAX_VALUE, wikiButton.getPreferredSize().height));
                 contentPanel.add(wikiButton);
             }

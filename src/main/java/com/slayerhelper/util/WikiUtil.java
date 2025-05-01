@@ -1,5 +1,7 @@
 package com.slayerhelper.util;
 
+import net.runelite.client.ui.PluginPanel;
+
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
@@ -13,10 +15,23 @@ public class WikiUtil {
         button.setCursor(new Cursor(Cursor.HAND_CURSOR));
         button.setFocusPainted(false);
         button.setHorizontalAlignment(SwingConstants.LEFT);
+        button.setHorizontalTextPosition(SwingConstants.LEFT);
         button.setBackground(new Color(60, 60, 60));
         button.setForeground(Color.WHITE);
         button.setBorderPainted(false);
-
+        button.setMargin(new Insets(2, 5, 2, 5));
+        button.setContentAreaFilled(true);
+        
+        // Set text alignment to left
+        button.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+        
+        // Make sure the button text is properly displayed
+        button.setIconTextGap(0);
+        button.setHorizontalTextPosition(SwingConstants.LEADING);
+        
+        // Make sure the button is properly sized
+        button.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH - 40, 30));
+        
         button.addActionListener(e -> openWebpage(url));
 
         return button;
