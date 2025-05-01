@@ -16,6 +16,7 @@ import java.util.Collections;
 public class SlayerDataLoader {
 
     private String jsonFilePath = "/data/slayerTasks.json";
+    private static final LocationDataLoader locationDataLoader = new LocationDataLoader();
 
     public Collection<SlayerTask> load() {
         try (InputStream inputStream = this.getClass().getResourceAsStream(jsonFilePath)) {

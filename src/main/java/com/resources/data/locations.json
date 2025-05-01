@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Catacombs of Kourend",
+    "cannonable": false
+  },
+  {
+    "name": "Slayer Tower",
+    "cannonable": true
+  },
+  {
+    "name": "Stronghold Slayer Cave",
+    "cannonable": true
+  },
+  {
+    "name": "Taverley Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Fremennik Slayer Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Smoke Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Brimhaven Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Kalphite Lair",
+    "cannonable": true
+  },
+  {
+    "name": "Waterbirth Island Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Asgarnian Ice Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Lighthouse Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Mos Le'Harmless Cave",
+    "cannonable": false
+  },
+  {
+    "name": "Kraken Cove",
+    "cannonable": false
+  },
+  {
+    "name": "Iorwerth Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Lithkren Vault",
+    "cannonable": false
+  },
+  {
+    "name": "Karuulm Slayer Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "God Wars Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Ancient Cavern",
+    "cannonable": true
+  },
+  {
+    "name": "Troll Stronghold",
+    "cannonable": true
+  },
+  {
+    "name": "Witchaven Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Kourend Woodland",
+    "cannonable": true
+  },
+  {
+    "name": "Kharidian Desert",
+    "cannonable": true
+  },
+  {
+    "name": "Wilderness Slayer Cave",
+    "cannonable": true
+  },
+  {
+    "name": "Wilderness God Wars Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Revenant Caves",
+    "cannonable": false
+  },
+  {
+    "name": "Forthos Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Shayzien Crypts",
+    "cannonable": false
+  },
+  {
+    "name": "Myths' Guild Dungeon",
+    "cannonable": false
+  },
+  {
+    "name": "Corsair Cove Dungeon",
+    "cannonable": true
+  },
+  {
+    "name": "Jormungand's Prison",
+    "cannonable": false
+  }
+]

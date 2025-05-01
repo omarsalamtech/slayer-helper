@@ -25,7 +25,7 @@ public class WikiUtil {
         return button;
     }
 
-    private static void openWebpage(String url) {
+    public static void openWebpage(String url) {
         if (Desktop.isDesktopSupported()) {
             Desktop desktop = Desktop.getDesktop();
             try {
