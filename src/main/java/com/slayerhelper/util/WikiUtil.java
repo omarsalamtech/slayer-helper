@@ -1,9 +1,7 @@
 package com.slayerhelper.util;
-import com.slayerhelper.ui.components.Tab;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -14,13 +12,12 @@ public class WikiUtil {
         JButton button = new JButton(text);
         button.setCursor(new Cursor(Cursor.HAND_CURSOR));
         button.setFocusPainted(false);
+        button.setHorizontalAlignment(SwingConstants.LEFT);
+        button.setBackground(new Color(60, 60, 60));
+        button.setForeground(Color.WHITE);
+        button.setBorderPainted(false);
 
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                openWebpage(url);
-            }
-        });
+        button.addActionListener(e -> openWebpage(url));
 
         return button;
     }

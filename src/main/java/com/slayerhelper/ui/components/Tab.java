@@ -46,7 +46,9 @@ public class Tab {
                 label.setHorizontalAlignment(SwingConstants.CENTER);
                 label.setAlignmentX(Component.CENTER_ALIGNMENT);
                 
-                Container wikiButton = WikiUtil.createLinkButton(s, WikiUtil.getWikiUrl(type, s));
+                JButton wikiButton = WikiUtil.createLinkButton(s, WikiUtil.getWikiUrl(type, s));
+                wikiButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+                wikiButton.setMaximumSize(new Dimension(Integer.MAX_VALUE, wikiButton.getPreferredSize().height));
                 contentPanel.add(wikiButton);
             }
         }
@@ -80,12 +82,7 @@ public class Tab {
         locationButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
         locationButton.setAlignmentX(Component.CENTER_ALIGNMENT);
         
-        locationButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                displayLocationDetails(locationName);
-            }
-        });
+        locationButton.addActionListener(e -> displayLocationDetails(locationName));
         
         // Also add wiki link functionality
         locationButton.addMouseListener(new java.awt.event.MouseAdapter() {
