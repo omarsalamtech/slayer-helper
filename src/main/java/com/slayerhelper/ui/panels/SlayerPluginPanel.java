@@ -259,30 +259,35 @@ public class SlayerPluginPanel extends PluginPanel {
             buttonPanel.setBackground(new Color(55, 40, 40));
             buttonPanel.setPreferredSize(new Dimension(200, 30));
 
-            JButton locationButton = new JButton(locationName);
-            locationButton.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 14));
-            locationButton.setForeground(Color.WHITE);
-            locationButton.setBackground(new Color(20, 60, 60));
-            locationButton.setBorderPainted(false);
-            locationButton.setFocusPainted(false);
-            locationButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
-            locationButton.setMargin(new Insets(2, 5, 2, 5));
-
-            // Add click handler for location details
-            locationButton.addActionListener(e -> displayLocationDetails(detailsPanel, locationName));
-
-            // Add right-click for wiki
-            locationButton.addMouseListener(new java.awt.event.MouseAdapter() {
-                public void mouseClicked(java.awt.event.MouseEvent evt) {
-                    if (evt.getButton() == java.awt.event.MouseEvent.BUTTON3) {
-                        WikiUtil.openWebpage(WikiUtil.getWikiUrl("Map Location", locationName));
-                    }
-                }
-            });
+            JButton locationButton = getJButton(locationName, detailsPanel);
 
             buttonPanel.add(locationButton);
             sectionPanel.add(buttonPanel);
         }
+    }
+
+    private JButton getJButton(String locationName, JPanel detailsPanel) {
+        JButton locationButton = new JButton(locationName);
+        locationButton.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 14));
+        locationButton.setForeground(Color.WHITE);
+        locationButton.setBackground(new Color(20, 60, 60));
+        locationButton.setBorderPainted(false);
+        locationButton.setFocusPainted(false);
+        locationButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        locationButton.setMargin(new Insets(2, 5, 2, 5));
+
+        // Add click handler for location details
+        locationButton.addActionListener(e -> displayLocationDetails(detailsPanel, locationName));
+
+        // Add right-click for wiki
+        locationButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                if (evt.getButton() == java.awt.event.MouseEvent.BUTTON3) {
+                    WikiUtil.openWebpage(WikiUtil.getWikiUrl("Map Location", locationName));
+                }
+            }
+        });
+        return locationButton;
     }
 
     private void addRegularContent(JPanel sectionPanel, String[] items, String type) {

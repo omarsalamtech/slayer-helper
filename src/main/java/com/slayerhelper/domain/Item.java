@@ -1,7 +1,10 @@
 package com.slayerhelper.domain;
 
+import lombok.Getter;
+
 import java.util.Objects;
 
+@Getter
 public class Item {
     private final String name;
     private final String icon;
@@ -11,11 +14,4 @@ public class Item {
         this.icon = icon;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getIcon() {
-        return icon;
-    }
 }
