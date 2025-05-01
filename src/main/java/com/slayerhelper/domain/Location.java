@@ -8,10 +8,12 @@ import java.util.Objects;
 public class Location {
     private final String name;
     private final boolean cannonable;
-    
-    public Location(String name, boolean cannonable) {
+    private final boolean multicombat;
+
+    public Location(String name, boolean cannonable, boolean multicombat) {
         this.name = Objects.requireNonNull(name, "location name cannot be null");
         this.cannonable = cannonable;
+        this.multicombat = multicombat;
     }
     
     @Override

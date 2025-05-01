@@ -55,7 +55,6 @@ public class SlayerPluginPanel extends PluginPanel {
     private JScrollPane createVerticalPanel(SlayerTask task) {
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
-        mainPanel.setBackground(new Color(30, 30, 30));
 
         List<ImageIcon> icons = new ArrayList<>();
         for (String imageNameWithExtension : tabImageNamesWithExtensions) {
@@ -204,10 +203,9 @@ public class SlayerPluginPanel extends PluginPanel {
     private JPanel createSectionPanel(ImageIcon icon, String[] content, String type) {
         JPanel sectionPanel = new JPanel();
         sectionPanel.setLayout(new BoxLayout(sectionPanel, BoxLayout.Y_AXIS));
-        sectionPanel.setBackground(new Color(40, 40, 40));
         sectionPanel.setBorder(BorderFactory.createCompoundBorder(
             BorderFactory.createLineBorder(new Color(60, 60, 60), 1),
-            BorderFactory.createEmptyBorder(10, 10, 10, 10)
+            BorderFactory.createEmptyBorder(5, 5, 5, 5)
         ));
         
         // Create header with icon and title
@@ -232,7 +230,7 @@ public class SlayerPluginPanel extends PluginPanel {
             JPanel detailsPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
 //            detailsPanel.setLayout(new BoxLayout(detailsPanel, BoxLayout.Y_AXIS));
             detailsPanel.setBackground(new Color(45, 45, 65));
-            detailsPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+            detailsPanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
             detailsPanel.setVisible(false);
             detailsPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 100));
 
@@ -294,14 +292,19 @@ public class SlayerPluginPanel extends PluginPanel {
         
         return sectionPanel;
     }
-    
+
     private void displayLocationDetails(JPanel detailsPanel, String locationName) {
         // Get location data
         com.slayerhelper.domain.Location location = new com.slayerhelper.data.LocationDataLoader().getLocation(locationName);
-        
+
         // Clear previous content
         detailsPanel.removeAll();
-        
+
+        // Use GridLayout with one column for vertical stacking
+        detailsPanel.setLayout(new GridLayout(0, 1, 0, 5));
+        detailsPanel.setBackground(new Color(45, 45, 65));
+        detailsPanel.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
+
         if (location == null) {
             JLabel errorLabel = new JLabel("No additional information available for " + locationName);
             errorLabel.setForeground(Color.RED);
@@ -312,22 +315,28 @@ public class SlayerPluginPanel extends PluginPanel {
             nameLabel.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 14));
             nameLabel.setForeground(Color.ORANGE);
             detailsPanel.add(nameLabel);
-            detailsPanel.add(Box.createRigidArea(new Dimension(0, 5)));
-            
+
             // Add cannonable status
             String cannonableText = "Cannonable: " + (location.isCannonable() ? "Yes" : "No");
             JLabel cannonableLabel = new JLabel(cannonableText);
             cannonableLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 14));
             cannonableLabel.setForeground(Color.WHITE);
             detailsPanel.add(cannonableLabel);
-            
+
+
+            // Add multicombat status
+            String multicombatText = "MultiCombat: " + (location.isMulticombat() ? "Yes" : "No");
+            JLabel multicombatLabel = new JLabel(multicombatText);
+            multicombatLabel.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 14));
+            multicombatLabel.setForeground(Color.WHITE);
+            detailsPanel.add(multicombatLabel);
+
             // Add wiki link button
             JButton wikiButton = new JButton("View on Wiki");
             wikiButton.addActionListener(e -> WikiUtil.openWebpage(WikiUtil.getWikiUrl("Map Location", locationName)));
-            detailsPanel.add(Box.createRigidArea(new Dimension(0, 5)));
             detailsPanel.add(wikiButton);
         }
-        
+
         // Make the panel visible and revalidate
         detailsPanel.setVisible(true);
         detailsPanel.revalidate();

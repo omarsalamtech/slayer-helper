@@ -1,122 +1,152 @@
 [
   {
     "name": "Catacombs of Kourend",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Slayer Tower",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Stronghold Slayer Cave",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Taverley Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Fremennik Slayer Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Smoke Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Brimhaven Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Kalphite Lair",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Waterbirth Island Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Asgarnian Ice Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Lighthouse Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Mos Le'Harmless Cave",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Kraken Cove",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Iorwerth Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Lithkren Vault",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Karuulm Slayer Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "God Wars Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Ancient Cavern",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Troll Stronghold",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Witchaven Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Kourend Woodland",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Kharidian Desert",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Wilderness Slayer Cave",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Wilderness God Wars Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Revenant Caves",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Forthos Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Shayzien Crypts",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Myths' Guild Dungeon",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   },
   {
     "name": "Corsair Cove Dungeon",
-    "cannonable": true
+    "cannonable": true,
+    "multicombat": true
   },
   {
     "name": "Jormungand's Prison",
-    "cannonable": false
+    "cannonable": false,
+    "multicombat": false
   }
 ]
