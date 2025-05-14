@@ -102,6 +102,7 @@ public class SlayerPluginPanel extends PluginPanel {
         JPanel attackStylesPanel = createSectionPanel(icons.get(2), task.getAttackStyles(), "Monster Attack Style");
         JPanel attributesPanel = createSectionPanel(icons.get(3), task.getAttributes(), "Monsters Attributes");
         JPanel masterPanel = createSectionPanel(icons.get(4), task.getSlayerMasters(), "Slayer Master");
+        JPanel alternativesPanel = createSectionPanel(icons.get(4), task.getAlternatives(), "Alternatives");
 
         // Add all sections to the main panel with spacing
         mainPanel.add(locationPanel);
@@ -113,6 +114,8 @@ public class SlayerPluginPanel extends PluginPanel {
         mainPanel.add(attributesPanel);
         mainPanel.add(Box.createRigidArea(new Dimension(0, 10)));
         mainPanel.add(masterPanel);
+        mainPanel.add(Box.createRigidArea(new Dimension(0, 10)));
+        mainPanel.add(alternativesPanel);
 
         // Configure scroll pane
         JScrollPane scrollPane = new JScrollPane(mainPanel);
