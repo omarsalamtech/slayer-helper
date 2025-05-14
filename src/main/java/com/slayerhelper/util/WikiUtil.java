@@ -61,9 +61,9 @@ public class WikiUtil {
         String baseUrl = "https://oldschool.runescape.wiki/w/";
         String pattern = "_(.+)$"; // Matches an underscore followed by anything at the end
         switch (type.toLowerCase()) {
-            case "alternatives":
             case "none":
                 return "about:blank";
+            case "alternatives":
             case "map location":
             case "items needed":
             case "monster attack style":

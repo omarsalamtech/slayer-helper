@@ -3804,5 +3804,169 @@
     "hasSuperior": false,
     "bones": "",
     "slayerXp": 0
+  },
+  {
+    "monster": "Araxytes",
+    "slayerLevel": 92,
+    "locations": [
+      "Varlamore",
+      "High-level slayer areas"
+    ],
+    "itemsRequired": [
+      {
+        "name": "None",
+        "icon": ""
+      }
+    ],
+    "attributes": [
+      "None"
+    ],
+    "attackStyles": [
+      "Melee",
+      "Magic",
+      "Ranged"
+    ],
+    "alternatives": [
+      "Araxxor"
+    ],
+    "slayerMasters": [
+      "Duradel",
+      "Nieve",
+      "Konar quo Maten",
+      "Krystilia"
+    ],
+    "hasSuperior": false,
+    "bones": "Big bones",
+    "slayerXp": 800
+  },
+  {
+    "monster": "Crabs",
+    "slayerLevel": 1,
+    "locations": [
+      "North of Rellekka",
+      "Waterbirth Island",
+      "West of Mount Quidamortem"
+    ],
+    "itemsRequired": [
+      {
+        "name": "None",
+        "icon": ""
+      }
+    ],
+    "attributes": [
+      "None"
+    ],
+    "attackStyles": [
+      "Crush"
+    ],
+    "alternatives": [
+      "Rock Crab",
+      "Sand Crab",
+      "Ammonite Crab"
+    ],
+    "slayerMasters": [
+      "Turael/Spria",
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar"
+    ],
+    "hasSuperior": false,
+    "bones": "None",
+    "slayerXp": 50
+  },
+  {
+    "monster": "Lesser Nagua",
+    "slayerLevel": 48,
+    "locations": [
+      "Ruins of Tapoyauik",
+      "Neypotzli"
+    ],
+    "itemsRequired": [
+      {
+        "name": "None",
+        "icon": ""
+      }
+    ],
+    "attributes": [
+      "Spectral"
+    ],
+    "attackStyles": [
+      "Magic"
+    ],
+    "alternatives": [
+      "Frost Nagua",
+      "Sulphur Nagua",
+      "Amoxliatl"
+    ],
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar quo Maten"
+    ],
+    "hasSuperior": false,
+    "bones": "None",
+    "slayerXp": 120
+  },
+  {
+    "monster": "Sourhog",
+    "slayerLevel": 1,
+    "locations": [
+      "Sourhog Cave"
+    ],
+    "itemsRequired": [
+      {
+        "name": "Reinforced goggles",
+        "icon": "Reinforced_goggles.png"
+      },
+      {
+        "name": "Slayer helmet",
+        "icon": "Slayer_helmet.png"
+      }
+    ],
+    "attributes": [
+      "None"
+    ],
+    "attackStyles": [
+      "Crush",
+      "Ranged"
+    ],
+    "alternatives": [],
+    "slayerMasters": [
+      "Spria"
+    ],
+    "hasSuperior": false,
+    "bones": "Big bones",
+    "slayerXp": 40
+  },
+  {
+    "monster": "Warped creatures",
+    "slayerLevel": 56,
+    "locations": [
+      "Poison Waste Dungeon"
+    ],
+    "itemsRequired": [
+      {
+        "name": "Crystal chime",
+        "icon": "Slayer_helmet.png"
+      }
+    ],
+    "attributes": [
+      "None"
+    ],
+    "attackStyles": [
+      "Crush"
+    ],
+    "alternatives": [
+      "Warped Tortoise",
+      "Warped Terrorbird"
+    ],
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar quo Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "hasSuperior": true,
+    "bones": "Big bones",
+    "slayerXp": 200
   }
 ]
