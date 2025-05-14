@@ -19,7 +19,10 @@ public class SlayerTaskTest {
                 new String[]{"Attribute 1", "Attribute 2"},
                 new String[]{"Attack Style 1", "Attack Style 2"},
                 new String[]{"Alternative 1", "Alternative 2"},
-                new String[]{"Slayer Master 1", "Slayer Master 2"}
+                new String[]{"Slayer Master 1", "Slayer Master 2"},
+                100,
+                true,
+                "Bones"
         );
     }
 

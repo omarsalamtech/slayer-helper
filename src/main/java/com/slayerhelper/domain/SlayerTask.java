@@ -14,7 +14,9 @@ public class SlayerTask {
     private final String[] alternatives;
     private final int slayerLevel;
     private final Item[] itemsRequired;
-
+    private final int slayerXp;
+    private final boolean hasSuperior;
+    private final String bones;
     public SlayerTask(
             String monster,
             int slayerLevel,
@@ -23,7 +25,10 @@ public class SlayerTask {
             String[] attributes,
             String[] attackStyles,
             String[] alternatives,
-            String[] slayerMasters) {
+            String[] slayerMasters,
+            int slayerXp,
+            boolean hasSuperior,
+            String bones) {
         this.monster = Objects.requireNonNull(monster, "monster cannot be null");
         this.slayerLevel = slayerLevel;
         this.locations = Objects.requireNonNull(locations, "locations cannot be null");
@@ -32,8 +37,10 @@ public class SlayerTask {
         this.attackStyles = Objects.requireNonNull(attackStyles, "attack styles cannot be null");
         this.alternatives = Objects.requireNonNull(alternatives, "alternatives cannot be null");
         this.slayerMasters = Objects.requireNonNull(slayerMasters, "slayer masters cannot be null");
+        this.slayerXp = slayerXp;
+        this.hasSuperior = hasSuperior;
+        this.bones = Objects.requireNonNull(bones, "slayer masters cannot be null");
     }
-
     public String getMonsterLowerCase() {
         return monster.toLowerCase();
     }

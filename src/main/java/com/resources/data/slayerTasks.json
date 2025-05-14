@@ -2,10 +2,13 @@
   {
     "monster": "Aberrant spectre",
     "slayerLevel": 60,
+    "slayerXp": 90,
     "locations": [
       "Slayer Tower",
       "Stronghold Slayer Cave"
     ],
+    "hasSuperior": true,
+    "bones": "none",
     "itemsRequired": [
       {
         "name": "Nose peg",
@@ -36,11 +39,14 @@
   {
     "monster": "Abyssal demon",
     "slayerLevel": 85,
+    "slayerXp": 150,
     "locations": [
       "Slayer Tower",
       "Abyssal Area",
       "Catacombs of Kourend"
     ],
+    "hasSuperior": true,
+    "bones": "ash",
     "itemsRequired": [
       {
         "name": "None"
@@ -99,7 +105,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ankou",
@@ -130,7 +139,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Aviansie",
@@ -155,7 +167,7 @@
       "Ranged"
     ],
     "alternatives": [
-      "Kree\u0027arra",
+      "Kree'arra",
       "Flight Kilisa",
       "Flockleader Geerin",
       "Wingman Skree"
@@ -166,7 +178,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Bandit",
@@ -190,7 +205,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Banshee",
@@ -222,7 +240,10 @@
       "Mazchna",
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Basilisk",
@@ -236,8 +257,8 @@
         "icon": "Mirror shield.png"
       },
       {
-        "name": "V\u0027s shield",
-        "icon": "V\u0027s shield.png"
+        "name": "V's shield",
+        "icon": "V's shield.png"
       }
     ],
     "attributes": [
@@ -255,7 +276,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Bat",
@@ -284,7 +308,10 @@
     "slayerMasters": [
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Bear",
@@ -314,7 +341,10 @@
       "Krystilia",
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Bird",
@@ -347,7 +377,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Black demon",
@@ -381,7 +414,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Black dragon",
@@ -389,7 +425,7 @@
     "locations": [
       "Taverley Dungeon",
       "Lava Maze",
-      "Evil Chicken\u0027s Lair"
+      "Evil Chicken's Lair"
     ],
     "itemsRequired": [
       {
@@ -423,7 +459,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Black Knight",
@@ -448,7 +487,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Bloodveld",
@@ -480,7 +522,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Blue dragon",
@@ -488,7 +533,7 @@
     "locations": [
       "Taverley Dungeon",
       "Ogre Enclave",
-      "Heroes\u0027 Guild",
+      "Heroes' Guild",
       "Corsair Cove Dungeon"
     ],
     "itemsRequired": [
@@ -524,7 +569,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Brine rat",
@@ -551,7 +599,10 @@
       "Chaeldar",
       "Konar quo Maten",
       "Nieve"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Bronze dragon",
@@ -590,7 +641,10 @@
       "Vannaka",
       "Chaeldar",
       "Konar quo Maten"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Catablepon",
@@ -615,7 +669,10 @@
     ],
     "slayerMasters": [
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cave bug",
@@ -643,7 +700,10 @@
       "Turael",
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cave crawler",
@@ -673,13 +733,16 @@
       "Mazchna",
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cave horror",
     "slayerLevel": 58,
     "locations": [
-      "Mos Le\u0027Harmless Cave"
+      "Mos Le'Harmless Cave"
     ],
     "itemsRequired": [
       {
@@ -705,7 +768,10 @@
       "Chaeldar",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cave slime",
@@ -735,7 +801,10 @@
       "Mazchna",
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cave kraken",
@@ -762,7 +831,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Chaos druid",
@@ -787,7 +859,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cockatrice",
@@ -801,8 +876,8 @@
         "icon": "Mirror shield.png"
       },
       {
-        "name": "V\u0027s shield",
-        "icon": "V\u0027s shield.png"
+        "name": "V's shield",
+        "icon": "V's shield.png"
       }
     ],
     "attributes": [
@@ -817,7 +892,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Cow",
@@ -844,7 +922,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Crawling Hand",
@@ -870,7 +951,10 @@
       "Turael",
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Crocodile",
@@ -895,7 +979,10 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Dagannoth",
@@ -904,7 +991,7 @@
       "Lighthouse",
       "Waterbirth Island Dungeon",
       "Catacombs of Kourend",
-      "Jormungand\u0027s Prison"
+      "Jormungand's Prison"
     ],
     "itemsRequired": [
       {
@@ -930,7 +1017,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Dark beast",
@@ -958,13 +1048,16 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Dark warrior",
     "slayerLevel": 1,
     "locations": [
-      "Dark Warriors\u0027 Fortress"
+      "Dark Warriors' Fortress"
     ],
     "itemsRequired": [
       {
@@ -982,14 +1075,17 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Dog",
     "slayerLevel": 1,
     "locations": [
       "Ardougne",
-      "McGrubor\u0027s Wood",
+      "McGrubor's Wood",
       "Black Arm Gang hideout in Brimhaven",
       "Brimhaven Dungeon"
     ],
@@ -1013,7 +1109,10 @@
     "slayerMasters": [
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Drake",
@@ -1048,7 +1147,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Dust devil",
@@ -1082,7 +1184,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Dwarf",
@@ -1112,7 +1217,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Earth Warrior",
@@ -1138,7 +1246,10 @@
       "Krystilia",
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Elf",
@@ -1167,7 +1278,10 @@
       "Chaeldar",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ent",
@@ -1191,7 +1305,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Fever spider",
@@ -1217,7 +1334,10 @@
     "slayerMasters": [
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Fire giant",
@@ -1251,7 +1371,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Flesh Crawler",
@@ -1275,7 +1398,10 @@
     ],
     "slayerMasters": [
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Fossil Island Wyvern",
@@ -1320,7 +1446,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Gargoyle",
@@ -1353,7 +1482,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ghost",
@@ -1361,7 +1493,7 @@
     "locations": [
       "Varrock Sewers",
       "Draynor Manor",
-      "Melzar\u0027s Maze",
+      "Melzar's Maze",
       "Stronghold of Security",
       "Taverley Dungeon",
       "West Ardougne (graveyard)",
@@ -1390,7 +1522,10 @@
     "slayerMasters": [
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ghoul",
@@ -1415,7 +1550,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Goblin",
@@ -1454,7 +1592,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Greater demon",
@@ -1480,7 +1621,7 @@
       "Melee"
     ],
     "alternatives": [
-      "K\u0027ril Tsutsaroth",
+      "K'ril Tsutsaroth",
       "Tstanon Karlak",
       "Skotizo"
     ],
@@ -1490,13 +1631,16 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Green dragon",
     "slayerLevel": 1,
     "locations": [
-      "West of the Dark Warriors\u0027 Fortress",
+      "West of the Dark Warriors' Fortress",
       "north of the Graveyard of Shadows",
       "South of the Lava Maze",
       "South of Venenatis",
@@ -1532,7 +1676,10 @@
     "slayerMasters": [
       "Krystilia",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Harpie bug swarm",
@@ -1558,7 +1705,10 @@
     "slayerMasters": [
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Hellhound",
@@ -1594,7 +1744,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Hill Giant",
@@ -1629,7 +1782,10 @@
       "Krystilia",
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Hobgoblin",
@@ -1665,7 +1821,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Hydra",
@@ -1691,7 +1850,10 @@
     ],
     "slayerMasters": [
       "Konar quo Maten"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Icefiend",
@@ -1719,7 +1881,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ice giant",
@@ -1746,7 +1911,10 @@
     "slayerMasters": [
       "Krystilia",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ice warrior",
@@ -1774,7 +1942,10 @@
       "Krystilia",
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Infernal Mage",
@@ -1799,7 +1970,10 @@
     "slayerMasters": [
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Iron dragon",
@@ -1838,7 +2012,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Jelly",
@@ -1864,13 +2041,16 @@
       "Vannaka",
       "Chaeldar",
       "Konar quo Maten"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Jungle horror",
     "slayerLevel": 1,
     "locations": [
-      "Mos Le\u0027Harmless"
+      "Mos Le'Harmless"
     ],
     "itemsRequired": [
       {
@@ -1889,7 +2069,10 @@
     "slayerMasters": [
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Kalphite",
@@ -1923,7 +2106,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Killerwatt",
@@ -1950,7 +2136,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Kurask",
@@ -1991,7 +2180,10 @@
       "Chaeldar",
       "Konar quo Maten",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Lava dragon",
@@ -2026,16 +2218,19 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Lesser demon",
     "slayerLevel": 1,
     "locations": [
-      "Wizards\u0027 Tower",
+      "Wizards' Tower",
       "Karamja Dungeon",
       "Crandor",
-      "Melzar\u0027s Maze",
+      "Melzar's Maze",
       "Demonic Ruins",
       "Lava Maze",
       "Catacombs of Kourend"
@@ -2052,13 +2247,16 @@
       "Melee"
     ],
     "alternatives": [
-      "Zakl\u0027n Gritch"
+      "Zakl'n Gritch"
     ],
     "slayerMasters": [
       "Krystilia",
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Lizardman",
@@ -2088,7 +2286,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Lizard",
@@ -2119,7 +2320,10 @@
       "Mazchna",
       "Chaeldar",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Magic axe",
@@ -2144,7 +2348,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Mammoth",
@@ -2168,7 +2375,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Minotaur",
@@ -2192,7 +2402,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Mithril dragon",
@@ -2231,7 +2444,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Mogre",
@@ -2257,7 +2473,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Molanisk",
@@ -2282,14 +2501,17 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Monkey",
     "slayerLevel": 1,
     "locations": [
       "Karamja",
-      "Mos Le\u0027Harmless",
+      "Mos Le'Harmless",
       "Ardougne Zoo"
     ],
     "itemsRequired": [
@@ -2310,7 +2532,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Moss giant",
@@ -2322,8 +2547,8 @@
       "Moss Giant Island",
       "Wilderness",
       "Varrock Sewers",
-      "Pirates\u0027 Cove",
-      "Glarial\u0027s Tomb",
+      "Pirates' Cove",
+      "Glarial's Tomb",
       "Catacombs of Kourend"
     ],
     "itemsRequired": [
@@ -2343,7 +2568,10 @@
     "slayerMasters": [
       "Krystilia",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Nechryael",
@@ -2371,17 +2599,20 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Ogre",
     "slayerLevel": 1,
     "locations": [
-      "Gu\u0027Tanoth",
+      "Gu'Tanoth",
       "west of Yanille",
       "south of Castle Wars",
-      "south of Gu\u0027Tanoth",
-      "Toban \u0027s Island",
+      "south of Gu'Tanoth",
+      "Toban 's Island",
       "Chaos Druid Tower dungeon",
       "Clock Tower Dungeon",
       "Witchaven Dungeon",
@@ -2408,7 +2639,10 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Otherworldly being",
@@ -2432,13 +2666,16 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Pirate",
     "slayerLevel": 1,
     "locations": [
-      "Pirates\u0027 Hideout"
+      "Pirates' Hideout"
     ],
     "itemsRequired": [
       {
@@ -2456,7 +2693,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Pyrefiend",
@@ -2485,7 +2725,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Rat",
@@ -2513,7 +2756,10 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Red dragon",
@@ -2552,7 +2798,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Revenant",
@@ -2578,7 +2827,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Rockslug",
@@ -2606,13 +2858,16 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Rogue",
     "slayerLevel": 1,
     "locations": [
-      "Rogues\u0027 Castle",
+      "Rogues' Castle",
       "southwest of Mage Arena"
     ],
     "itemsRequired": [
@@ -2631,7 +2886,10 @@
     ],
     "slayerMasters": [
       "Krystilia"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Rune Dragon",
@@ -2670,7 +2928,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Scabarite",
@@ -2699,7 +2960,10 @@
     ],
     "slayerMasters": [
       "Nieve"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Scorpion",
@@ -2735,13 +2999,16 @@
       "Krystilia",
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Sea snake",
     "slayerLevel": 1,
     "locations": [
-      "Miscellania \u0026 Etceteria Dungeon"
+      "Miscellania & Etceteria Dungeon"
     ],
     "itemsRequired": [
       {
@@ -2761,13 +3028,16 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Shade",
     "slayerLevel": 1,
     "locations": [
-      "Mort\u0027ton",
+      "Mort'ton",
       "Shade Catacombs",
       "Temple Trekking",
       "Catacombs of Kourend"
@@ -2793,13 +3063,16 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Shadow warrior",
     "slayerLevel": 1,
     "locations": [
-      "Legends\u0027 Guild basement"
+      "Legends' Guild basement"
     ],
     "itemsRequired": [
       {
@@ -2818,7 +3091,10 @@
     "slayerMasters": [
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Skeletal Wyvern",
@@ -2855,7 +3131,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Skeleton",
@@ -2872,7 +3151,7 @@
       "Waterfall Dungeon",
       "Wilderness Agility Course",
       "Barrows",
-      "Melzar\u0027s Maze",
+      "Melzar's Maze",
       "Wilderness Volcano",
       "Ape Atoll Dungeon",
       "Underground Pass"
@@ -2890,13 +3169,16 @@
     ],
     "alternatives": [
       "Skeleton Champion",
-      "Vet\u0027ion"
+      "Vet'ion"
     ],
     "slayerMasters": [
       "Krystilia",
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Smoke devil",
@@ -2928,7 +3210,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Sourhog",
@@ -2958,14 +3243,17 @@
     ],
     "slayerMasters": [
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Spider",
     "slayerLevel": 1,
     "locations": [
-      "Melzar\u0027s Maze",
-      "Sorceress \u0027s house",
+      "Melzar's Maze",
+      "Sorceress 's house",
       "Lumbridge Castle basement",
       "behind Lumbridge Castle",
       "Stronghold of Security",
@@ -3002,7 +3290,10 @@
     "slayerMasters": [
       "Krystilia",
       "Turael"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Spiritual creature",
@@ -3031,7 +3322,10 @@
       "Chaeldar",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Steel dragon",
@@ -3070,7 +3364,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Suqah",
@@ -3097,13 +3394,16 @@
     "slayerMasters": [
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Terror dog",
     "slayerLevel": 40,
     "locations": [
-      "Tarn\u0027s Lair"
+      "Tarn's Lair"
     ],
     "itemsRequired": [
       {
@@ -3121,7 +3421,10 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Troll",
@@ -3159,7 +3462,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Turoth",
@@ -3199,7 +3505,10 @@
       "Chaeldar",
       "Konar quo Maten",
       "Nieve"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "TzHaar",
@@ -3228,7 +3537,10 @@
       "Chaeldar",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Vampyre",
@@ -3256,7 +3568,10 @@
     "slayerMasters": [
       "Mazchna",
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Wall beast",
@@ -3287,7 +3602,10 @@
       "Mazchna",
       "Vannaka",
       "Chaeldar"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Waterfiend",
@@ -3314,7 +3632,10 @@
     "slayerMasters": [
       "Konar quo Maten",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Werewolf",
@@ -3340,7 +3661,10 @@
     ],
     "slayerMasters": [
       "Vannaka"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Wolf",
@@ -3371,7 +3695,10 @@
     "slayerMasters": [
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Wyrm",
@@ -3399,7 +3726,10 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Zombie",
@@ -3411,7 +3741,7 @@
       "Graveyard of Shadows",
       "Stronghold of Security",
       "Varrock Sewers",
-      "Wizards\u0027 Guild basement",
+      "Wizards' Guild basement",
       "Draynor Sewers",
       "Lair of Tarn Razorlor"
     ],
@@ -3433,7 +3763,10 @@
       "Krystilia",
       "Turael",
       "Mazchna"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   },
   {
     "monster": "Zygomite",
@@ -3467,6 +3800,9 @@
       "Konar quo Maten",
       "Nieve",
       "Duradel"
-    ]
+    ],
+    "hasSuperior": false,
+    "bones": "",
+    "slayerXp": 0
   }
 ]
