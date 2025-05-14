@@ -41,15 +41,53 @@ public class SlayerPluginPanel extends PluginPanel {
         String monsterName = task.getMonster();
         String monsterFileName = task.getMonsterFileName();
 
+        JPanel headerPanel = new JPanel();
+        headerPanel.setLayout(new BoxLayout(headerPanel, BoxLayout.Y_AXIS));
+        
+        // Create the main header with monster name and image
+        JPanel mainHeader;
         try {
             BufferedImage img = ImageUtil.loadImageResource(getClass(), monsterFileName);
             BufferedImage resizedImg = ImageUtil.resizeImage(img, img.getWidth() / 2, img.getHeight() / 2);
             ImageIcon imageIcon = new ImageIcon(resizedImg);
-            return new HeaderPanel(font, monsterName, Color.CYAN, imageIcon, SwingConstants.CENTER).getHeaderPanel();
+            mainHeader = new HeaderPanel(font, monsterName, Color.CYAN, imageIcon, SwingConstants.CENTER).getHeaderPanel();
         } catch (NullPointerException e) {
             log.info("Couldn't find image with name... {}", monsterFileName, e);
-            return new HeaderPanel(font, monsterName, Color.ORANGE, SwingConstants.CENTER).getHeaderPanel();
+            mainHeader = new HeaderPanel(font, monsterName, Color.ORANGE, SwingConstants.CENTER).getHeaderPanel();
         }
+        
+        headerPanel.add(mainHeader);
+        
+        // Create additional info panel for the new properties
+        JPanel infoPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 0));
+        infoPanel.setBackground(new Color(30, 30, 30));
+        
+        // Slayer XP
+        JLabel xpLabel = new JLabel("Slayer XP: " + task.getSlayerXp());
+        xpLabel.setForeground(Color.WHITE);
+        xpLabel.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 12));
+        
+        // Has Superior
+        JLabel superiorLabel = new JLabel("Has Superior? " + (task.isHasSuperior() ? "Yes" : "No"));
+        superiorLabel.setForeground(Color.WHITE);
+        superiorLabel.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 12));
+
+        infoPanel.add(xpLabel);
+        infoPanel.add(superiorLabel);
+
+        // Bone Panel
+        JPanel bonePanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 0));
+        bonePanel.setBackground(new Color(30, 30, 30));
+
+        JLabel boneLabel = new JLabel("Bone Type: " + task.getBones());
+        boneLabel.setForeground(Color.WHITE);
+        boneLabel.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 12));
+        bonePanel.add(boneLabel);
+
+        headerPanel.add(infoPanel);
+        headerPanel.add(bonePanel);
+
+        return headerPanel;
     }
 
     private JScrollPane createVerticalPanel(SlayerTask task) {
