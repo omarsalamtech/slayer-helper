@@ -3216,39 +3216,6 @@
     "slayerXp": 0
   },
   {
-    "monster": "Sourhog",
-    "slayerLevel": 1,
-    "locations": [
-      "Sourhog Cave"
-    ],
-    "itemsRequired": [
-      {
-        "name": "Reinforced goggles",
-        "icon": "Reinforced goggles.png"
-      },
-      {
-        "name": "Slayer helmet",
-        "icon": "Slayer helmet.png"
-      }
-    ],
-    "attributes": [
-      "None"
-    ],
-    "attackStyles": [
-      "Melee",
-      "Ranged"
-    ],
-    "alternatives": [
-      "None"
-    ],
-    "slayerMasters": [
-      "Turael"
-    ],
-    "hasSuperior": false,
-    "bones": "",
-    "slayerXp": 0
-  },
-  {
     "monster": "Spider",
     "slayerLevel": 1,
     "locations": [
@@ -3814,8 +3781,7 @@
     ],
     "itemsRequired": [
       {
-        "name": "None",
-        "icon": ""
+        "name": "None"
       }
     ],
     "attributes": [
@@ -3849,8 +3815,7 @@
     ],
     "itemsRequired": [
       {
-        "name": "None",
-        "icon": ""
+        "name": "None"
       }
     ],
     "attributes": [
@@ -3883,8 +3848,7 @@
     ],
     "itemsRequired": [
       {
-        "name": "None",
-        "icon": ""
+        "name": "None"
       }
     ],
     "attributes": [

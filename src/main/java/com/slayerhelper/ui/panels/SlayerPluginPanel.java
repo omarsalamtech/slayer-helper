@@ -48,7 +48,18 @@ public class SlayerPluginPanel extends PluginPanel {
         JPanel mainHeader;
         try {
             BufferedImage img = ImageUtil.loadImageResource(getClass(), monsterFileName);
-            BufferedImage resizedImg = ImageUtil.resizeImage(img, img.getWidth() / 2, img.getHeight() / 2);
+            // Resize image to have max dimension of 150px while maintaining aspect ratio
+            int width = img.getWidth();
+            int height = img.getHeight();
+            double scale = 1.0;
+            if (width > height && width > 150) {
+                scale = 150.0 / width;
+            } else if (height > 150) {
+                scale = 150.0 / height;
+            }
+            int newWidth = (int) (width * scale);
+            int newHeight = (int) (height * scale);
+            BufferedImage resizedImg = ImageUtil.resizeImage(img, newWidth, newHeight);
             ImageIcon imageIcon = new ImageIcon(resizedImg);
             mainHeader = new HeaderPanel(font, monsterName, Color.CYAN, imageIcon, SwingConstants.CENTER).getHeaderPanel();
         } catch (NullPointerException e) {
